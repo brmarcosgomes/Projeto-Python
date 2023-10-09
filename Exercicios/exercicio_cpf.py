@@ -53,13 +53,15 @@ contrário disso:
 O segundo dígito do CPF é 0
 """
 
-cpf = "04235421840"
+cpf = "50423314840"
+
+
 numeros_cpf = ""
 lista_CPF = []
 resultado_multiplicacao = []
 resultado_multiplicacao2 = []
 
-soma = 0
+
 for caractere in cpf:
 
     if caractere.isdigit():

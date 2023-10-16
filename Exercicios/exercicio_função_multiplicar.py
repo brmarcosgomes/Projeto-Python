@@ -32,5 +32,10 @@ print(par_impar(16))
 
 print(par_impar is outro_par_impar)
 
+def juros_compostos(principal, taxa, tempo):
+    montante = principal * (1 + taxa) ** tempo
+    return montante
+
+print(juros_compostos(1000, 0.011, 12))
 
 
